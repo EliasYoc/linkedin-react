@@ -1,0 +1,16 @@
+.header-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blueviolet; */
+  cursor: pointer;
+  color: gray;
+  padding: 0 1rem;
+}
+.header-option > .header-option__title {
+  font-size: 0.7rem;
+}
+.header-option:hover {
+  color: black;
+}
